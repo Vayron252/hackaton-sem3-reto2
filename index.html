@@ -4,36 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Segundo Reto</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
+    <div id="contenedor-formulario">
         <form action="">
             <h1>Formulario de contacto</h1>
-            <div>
+            <div class="contenedor-inputs">
                 <label for="txtNombre">Nombre*</label>
-                <input type="text" id="txtNombre" placeholder="Escribe tu nombre">
+                <input type="text" id="txtNombre" placeholder="Escribe tu nombre" autocomplete="off">
             </div>
-            <div>
+            <div class="contenedor-inputs">
                 <label for="txtEmail">Email*</label>
-                <input type="email" id="txtEmail" placeholder="Escribe tu Email">
+                <input type="email" id="txtEmail" placeholder="Escribe tu Email" autocomplete="off">
             </div>
-            <div>
-                <label for="txtTelefono">Email*</label>
-                <input type="number" id="txtTelefono" placeholder="Escribe tu teléfono">
+            <div class="contenedor-inputs">
+                <label for="txtTelefono">Teléfono*</label>
+                <input type="number" id="txtTelefono" placeholder="Escribe tu teléfono" autocomplete="off">
             </div>
-            <div>
+            <div class="contenedor-inputs">
                 <label for="txtSitio">Sitio Web</label>
-                <input type="text" id="txtSitio" placeholder="Escribe la URL de tu web">
-            </div>
-            <div>
+                <input type="text" id="txtSitio" placeholder="Escribe la URL de tu web" autocomplete="off">
+            </div class="contenedor-inputs">
+            <div class="contenedor-inputs">
                 <label for=txtAsunto">Asunto*</label>
-                <input type="text" id="txtAsunto" placeholder="Escribe un asunto">
+                <input type="text" id="txtAsunto" placeholder="Escribe un asunto" autocomplete="off">
             </div>
-            <div>
+            <div class="contenedor-inputs">
                 <label for=txtMensaje">Mensaje*</label>
-                <textarea name="" id="txtMensaje" cols="30" rows="10" placeholder="Deja aquí tu comentario..."></textarea>
+                <textarea name="" id="txtMensaje" cols="30" rows="10" placeholder="Deja aquí tu comentario..." autocomplete="off"></textarea>
             </div>
-            <div>
+            <div class="contenedor-button">
                 <button type="submit">ENVIAR</button>
             </div>
             <div>

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=PT+Sans:wght@400;700&family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: skyblue;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    margin: 0 0 1.5rem 0;
+    text-align: center;
+    color: skyblue;
+}
+#contenedor-formulario {
+    background-color: white;
+    /*padding: 1.5rem 1.5rem 1rem 1.5rem; /* top right bottom left */
+    border-radius: 1rem;
+    width: 35%;
+    margin: 3.5rem auto;
+}
+form {
+    padding: 1rem 3rem;
+}
+.contenedor-inputs, .contenedor-button {
+    margin-bottom: 1rem;
+    min-width: 100%;
+}
+.contenedor-inputs label {
+    font-weight: bold;
+}
+input, textarea {
+    display: block;
+    border: 1px solid skyblue;
+    border-radius: .3rem;
+    min-width: 100%;
+    padding: 1rem;
+    margin-top: .3rem;
+}
+input:focus, textarea:focus {
+    outline: none; /*linea que se enciende y se activa*/
+    border: 1px solid sandybrown;
+}
+button {
+    display: block;
+    min-width: 100%;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    font-weight: bold;
+    border-radius: .3rem;
+    padding: .8rem;
+}
+button:hover {
+    background-color: bisque;
+    border: 1px solid bisque;
+}
